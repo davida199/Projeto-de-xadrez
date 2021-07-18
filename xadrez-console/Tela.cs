@@ -64,10 +64,7 @@ namespace xadrez_console
                 Console.Write(8 - i + " ");
                 for (int j = 0; j < tab.colunas; j++)
                 {
-
                     Tela.imprimirPeca(tab.peca(i, j));
-                    Console.Write("");
-
                 }
                 Console.WriteLine();
             }
